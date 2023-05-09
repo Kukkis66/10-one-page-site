@@ -1,0 +1,187 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #242328;
+    
+  }
+
+  .navbar {
+    
+    background-color: black;
+    padding: 2rem;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+  }
+
+  .navbar a {
+    
+    
+    
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    
+
+  }
+
+  main {
+    margin-top: 8rem;
+   padding: 3rem;
+    
+    
+    
+  }
+  .linkbox { padding: 2rem;
+    background: url(https://source.unsplash.com/800x450/?home,day);
+    
+
+  }
+
+  .textbox {
+    background-color: rgba(0,0,0,.7);
+    padding: 2rem;
+    scroll-margin-block-start: 5rem;
+    
+    
+    
+  }
+  
+  .whitebox {
+    background-color: #E6E9EB;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-block-end: 1rem;
+    
+  }
+  
+   #portfolio {
+    scroll-margin-block-start: 8rem;
+   }
+   #menneisyys {
+    scroll-margin-block-start: 5rem;
+   }
+   #nykyisyys {
+    scroll-margin-block-start: 6rem;
+   }
+
+   #tulevaisuus {
+    scroll-margin-block-start: 6rem;
+   }
+
+  .links {
+    color: #B36B41;
+
+  }
+
+  .card {
+    box-sizing: border-box;
+    
+    height: 30rem;
+    
+    border: 1px solid black;
+    
+    padding: 1rem;
+    border-radius: 17px;
+    
+    background-color: white;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 100%;
+    
+    user-select: none;
+    font-weight: bolder;
+    
+  }
+  
+    .cardimage {
+        height: auto;
+        max-width: 100%;
+    }
+  
+    .title {
+        font-size: 1.8rem;
+        margin-block-end: 1rem;
+    }
+    .contact{
+        margin-block-end: 1rem;
+        scroll-margin-block-start: 2rem;
+        color: white;
+        display: flex;
+        flex-wrap: row;
+        
+    }
+
+    footer {
+        width: 100%;
+        height: 0.1rem;
+        background-color: white;
+        margin-block-end: 1rem;
+        
+    }
+  
+
+
+    
+
+
+
+  .past {
+    float: right;
+    margin-left: 1rem;
+    
+  }
+  
+
+  .future {
+    float: left;
+    margin-right: 1rem;
+    }
+
+  
+    article {
+        overflow: hidden;
+    }
+
+  article p {
+    color: white;
+    margin-block-end: 1rem;
+    text-align: justify;
+    
+  }
+
+    h2 { 
+    background-color: #E6E9EB;
+    color: black;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    
+  }
+  h1, h3, h4, h5, .info {
+    margin-block-end: 1rem;
+    color: #B36B41;
+    font-size: 1.8rem;
+    
+
+  }
+
+  
+
+  .copyright {
+    color: white;
+  }
