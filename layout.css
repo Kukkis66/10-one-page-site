@@ -5,6 +5,7 @@ html {
   body {
     font-family: "Courier New", Courier, monospace;
     background-color: #242328;
+    display: flex;
     
   }
 
@@ -17,22 +18,35 @@ html {
     top: 0;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    
+    
+    
     
     
     
   }
-
-  .navbar a {
+  
+  .navbar > * {
     
     
+    
+  
     
     color: white;
     text-decoration: none;
     padding-left: 1rem;
     
+    
 
+  }
+
+  .navbar-left {
+    
+    flex-grow: 1;
+  }
+
+  .navbar-right {
+    margin-right: 3rem;
   }
 
   main {
@@ -62,7 +76,7 @@ html {
     padding: 1rem;
     display: flex;
     gap: 1rem;
-    flex-direction: row;
+    flex-direction: column;
     margin-block-end: 1rem;
     
   }
@@ -89,7 +103,7 @@ html {
   .card {
     box-sizing: border-box;
     
-    height: 30rem;
+    height: auto;
     
     border: 1px solid black;
     
@@ -125,6 +139,7 @@ html {
         flex-wrap: row;
         
     }
+    
 
     footer {
         width: 100%;
@@ -143,6 +158,7 @@ html {
   .past {
     float: right;
     margin-left: 1rem;
+    margin-bottom: 1rem;
     
   }
   
@@ -150,6 +166,7 @@ html {
   .future {
     float: left;
     margin-right: 1rem;
+    margin-bottom: 1rem;
     }
 
   
@@ -185,3 +202,13 @@ html {
   .copyright {
     color: white;
   }
+
+
+
+@media screen  and (min-width: 426px){
+
+  .whitebox {
+    flex-direction: row;
+  }
+  
+}
