@@ -46,7 +46,7 @@ html {
   }
 
   .navbar-right {
-    margin-right: 3rem;
+    margin-right: 5rem;
   }
 
   main {
@@ -136,9 +136,12 @@ html {
         scroll-margin-block-start: 2rem;
         color: white;
         display: flex;
-        flex-wrap: row;
+        flex-wrap: nowrap;
+        
         
     }
+    
+    
     
 
     footer {
